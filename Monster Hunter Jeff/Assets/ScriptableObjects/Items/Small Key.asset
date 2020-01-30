@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e432fbb0573c644a7c5181c6d5a9f1, type: 3}
   m_Name: Small Key
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 0}
-  itemDescription: 
-  isKey: 0
+  itemSprite: {fileID: 21300000, guid: f81c60589abeb3a49b9f2eb82547dd4d, type: 3}
+  itemDescription: Its a key!!!
+  isKey: 1

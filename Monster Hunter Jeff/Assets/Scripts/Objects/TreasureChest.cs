@@ -37,15 +37,46 @@ public class TreasureChest : Interactable {
     public void OpenChest()
     {
         // Dialog window on
+        dialogBox.SetActive(true);
         // dialog text = contents text
+        dialogText.text = contents.itemDescription;
         // add contents to inventory
+        playerInventory.AddItem(contents);
+        playerInventory.currentItem = contents;
         //Raise the signal to the player to animate
-        // set the chest t opened
+        raiseItem.Raise();
         //raise the context clue
+        context.Raise();
+        // set the chest t opened
+        isOpen = true;
+        anim.SetBool("opened", true);
     }
 
     public void ChestAlreadyOpen()
     {
 
+        // Dialog off
+        dialogBox.SetActive(false);
+        // raise the signal to the player to stop animating
+        raiseItem.Raise();
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger && !isOpen)
+        {
+            context.Raise();
+            playerInRange = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && !other.isTrigger && !isOpen)
+        {
+            context.Raise();
+            playerInRange = false;
+        }
     }
 }
