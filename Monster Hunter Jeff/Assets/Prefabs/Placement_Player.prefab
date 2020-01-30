@@ -144,5 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90cfde51833bb4c4082b2f74ba90aea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentState: 0
   speed: 20
-  startingPosition: {fileID: 0}
+  startingPosition: {fileID: 11400000, guid: 09e8b1e41b9b09f4a907f664b3d15937, type: 2}
+  playerInventory: {fileID: 11400000, guid: 8b560dca5e5944d4aaafd4f8e2ce6d75, type: 2}
+  recievedItemSprite: {fileID: 0}
