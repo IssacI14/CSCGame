@@ -4107,7 +4107,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -38.949993}
-  m_SizeDelta: {x: 113.3, y: 58.8}
+  m_SizeDelta: {x: 137.3, y: 58.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252646600
 MonoBehaviour:
@@ -4272,7 +4272,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 53
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
@@ -10067,11 +10067,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 65
+    m_FontSize: 72
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 6
-    m_MaxSize: 65
+    m_MaxSize: 82
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -12439,7 +12439,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 106}
-  m_SizeDelta: {x: 325.3, y: 99.3}
+  m_SizeDelta: {x: 347.1, y: 99.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &899934735
 MonoBehaviour:
@@ -12607,8 +12607,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000024319, y: 0.0000061989}
-  m_SizeDelta: {x: 1074.8, y: 167.3}
+  m_AnchoredPosition: {x: 105.2, y: -12.2}
+  m_SizeDelta: {x: 864.4, y: 143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1251419468
 GameObject:
@@ -12690,8 +12690,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 144}
-  m_SizeDelta: {x: 1188.3, y: 237.3}
+  m_AnchoredPosition: {x: 0, y: 109}
+  m_SizeDelta: {x: 751.8, y: 157.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1259196279
 MonoBehaviour:
@@ -12849,7 +12849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogBox: {fileID: 1259196277}
   dialogText: {fileID: 1143196685}
-  dialog: Pound ahead
+  dialog: This is my fav club
   playerInRange: 0
 --- !u!1 &1576361319
 GameObject:
@@ -13082,7 +13082,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 46
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
@@ -13205,7 +13205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928012236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.56, y: -1.84, z: 0}
+  m_LocalPosition: {x: -0.51, y: -5.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13306,8 +13306,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 23.400013}
-  m_SizeDelta: {x: 132.4, y: 65.9}
+  m_AnchoredPosition: {x: 4.9, y: 23.400013}
+  m_SizeDelta: {x: 179.2, y: 65.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116195287
 MonoBehaviour:
