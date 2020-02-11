@@ -9,8 +9,7 @@ public enum PlayerState{
 }
 
 public class PlayerMovement : MonoBehaviour {
-
-
+    
     public PlayerState currentState;
     public float speed;
     private Rigidbody2D myRigidbody;
