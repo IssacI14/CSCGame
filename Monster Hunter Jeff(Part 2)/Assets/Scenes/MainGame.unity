@@ -4148,7 +4148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.4
+  knockTime: 0.2
+  damage: 1
 --- !u!1 &246997720
 GameObject:
   m_ObjectHideFlags: 0
@@ -4316,7 +4317,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  health: 2
+  maxHealth: {fileID: 11400000, guid: e145b004717b25c4da5ff40757025c16, type: 2}
+  health: 0
   enemyName: Lance the Log
   baseAttack: 1
   moveSpeed: 1.5
@@ -4365,6 +4367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
+  damage: 0
 --- !u!1 &252646598
 GameObject:
   m_ObjectHideFlags: 0
@@ -13521,7 +13524,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.4
+  knockTime: 0.2
+  damage: 1
 --- !u!1 &1435592160 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8068319006687714410, guid: 8613456494b266d4881e05424d2794aa,
@@ -13851,7 +13855,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.4
+  knockTime: 0.2
+  damage: 1
 --- !u!1 &1835219775
 GameObject:
   m_ObjectHideFlags: 0
@@ -14238,7 +14243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.4
+  knockTime: 0.2
+  damage: 1
 --- !u!1 &2116195285
 GameObject:
   m_ObjectHideFlags: 0
