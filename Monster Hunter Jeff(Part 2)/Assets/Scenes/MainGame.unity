@@ -25692,7 +25692,7 @@ GameObject:
   - component: {fileID: 246997726}
   - component: {fileID: 246997727}
   - component: {fileID: 246997728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Log
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -34021,39 +34021,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20dd0a53314ea7a429022338295f6cf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signal: {fileID: 11400000, guid: a4ad58f916a5d2849b485beb1134c2fa, type: 2}
-  signalEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 687403102}
-        m_MethodName: Disable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &687403101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687403093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20dd0a53314ea7a429022338295f6cf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   signal: {fileID: 11400000, guid: 60e0e2a30b96d9448815823ec6c2d339, type: 2}
   signalEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 687403102}
-        m_MethodName: Enable
+        m_MethodName: ChangeContext
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -34076,6 +34049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contextClue: {fileID: 153721187}
+  contextActive: 0
 --- !u!4 &741533068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6305614225436818648, guid: 64bac16d08390bb458c3e1134fc084f2,
@@ -34988,7 +34962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -35037,12 +35011,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594ef2a2da9d7dd40b66607ba3b184be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contextOn: {fileID: 11400000, guid: 60e0e2a30b96d9448815823ec6c2d339, type: 2}
-  contextOff: {fileID: 11400000, guid: a4ad58f916a5d2849b485beb1134c2fa, type: 2}
+  context: {fileID: 11400000, guid: 60e0e2a30b96d9448815823ec6c2d339, type: 2}
+  playerInRange: 0
   dialogBox: {fileID: 1259196277}
   dialogText: {fileID: 1143196685}
   dialog: This is my fav club
-  playerInRange: 0
 --- !u!1 &1502852492
 GameObject:
   m_ObjectHideFlags: 0
@@ -35435,22 +35408,22 @@ PrefabInstance:
     - target: {fileID: 1184471650446522005, guid: 1541b99c1aa75f44ca1ad7f64461633c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 163
+      value: 127.08
       objectReference: {fileID: 0}
     - target: {fileID: 1184471650446522005, guid: 1541b99c1aa75f44ca1ad7f64461633c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 264.2
+      value: 192.38
       objectReference: {fileID: 0}
     - target: {fileID: 1184471650446522005, guid: 1541b99c1aa75f44ca1ad7f64461633c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -102.4
+      value: -84.92
       objectReference: {fileID: 0}
     - target: {fileID: 1184471650446522005, guid: 1541b99c1aa75f44ca1ad7f64461633c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 166.5
+      value: 131.53
       objectReference: {fileID: 0}
     - target: {fileID: 1184471650901823184, guid: 1541b99c1aa75f44ca1ad7f64461633c,
         type: 3}

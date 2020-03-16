@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: aa673c81372401d4cb49ca84732ea427, type: 3}
-    totalSpriteSurfaceArea: 754937
+    totalSpriteSurfaceArea: 3198361
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -587,6 +587,8 @@ SpriteAtlas:
   - {fileID: -2086765476746818828, guid: 6bdfc89982801fd418256eec4d8a9588, type: 3}
   - {fileID: 5566842953363755866, guid: 6bdfc89982801fd418256eec4d8a9588, type: 3}
   - {fileID: -7445369939883215787, guid: 6bdfc89982801fd418256eec4d8a9588, type: 3}
+  - {fileID: 21300000, guid: 58041aca609ee1e4cb2ae67c7795ef05, type: 3}
+  - {fileID: 21300000, guid: 42031a4c80eac5a4c8f2450680913d80, type: 3}
   - {fileID: 136123638574666257, guid: aba45d1d5ee485140a47fa1bd99bd8b4, type: 3}
   - {fileID: 293919518158258091, guid: aba45d1d5ee485140a47fa1bd99bd8b4, type: 3}
   - {fileID: -2417109873707893127, guid: aba45d1d5ee485140a47fa1bd99bd8b4, type: 3}
@@ -2345,6 +2347,8 @@ SpriteAtlas:
   - log_20
   - log_21
   - log_22
+  - Ice Age Baby
+  - hamburger
   - Overworld_827
   - Overworld_837
   - Overworld_847
