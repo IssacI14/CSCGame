@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Log : Enemy {
 
-    private Rigidbody2D myRigidbody;
+    public Rigidbody2D myRigidbody;
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
@@ -17,6 +17,7 @@ public class Log : Enemy {
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
+        anim.SetBool("wakeUp", true);
     }
 
     // Update is called once per frame
@@ -24,7 +25,7 @@ public class Log : Enemy {
         CheckDistance();
     }
 
-    void CheckDistance()
+    public virtual void CheckDistance()
     {
         if(Vector3.Distance(target.position,
                             transform.position) <= chaseRadius
@@ -54,7 +55,7 @@ public class Log : Enemy {
         anim.SetFloat("moveY", setVector.y);
     }
 
-    private void ChangeAnim(Vector2 direction) {
+    public void ChangeAnim(Vector2 direction) {
         if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {
             if(direction.x > 0){
