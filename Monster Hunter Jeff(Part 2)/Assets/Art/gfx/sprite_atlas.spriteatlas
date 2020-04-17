@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: aa673c81372401d4cb49ca84732ea427, type: 3}
-    totalSpriteSurfaceArea: 3234225
+    totalSpriteSurfaceArea: 3233869
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1687,11 +1687,9 @@ SpriteAtlas:
   - {fileID: -2336223751096622429, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: 8531737542734488527, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: -9051748682659619041, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
-  - {fileID: -2639854583086408205, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: 138822527552902627, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: 8694480088762194938, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: -6274607833073127828, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
-  - {fileID: 4391973271103909417, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: -1766389781502433406, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: -8253891713049958405, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: 243028321930452633, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
@@ -1810,6 +1808,8 @@ SpriteAtlas:
   - {fileID: 538826285080647454, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: 1107736971085435061, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: -377563455374678323, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
+  - {fileID: -2639854583086408205, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
+  - {fileID: 4391973271103909417, guid: 5958df5d0836b2f47aec58310ed8127e, type: 3}
   - {fileID: 21300000, guid: 4a12107f42ebebe478b9b5fb22c52249, type: 3}
   m_PackedSpriteNamesToIndex:
   - font
@@ -3452,11 +3452,9 @@ SpriteAtlas:
   - objects_51
   - objects_69
   - objects_86
-  - objects_98
   - objects_50
   - objects_66
   - objects_87
-  - objects_97
   - objects_57
   - objects_67
   - objects_80
@@ -3575,6 +3573,8 @@ SpriteAtlas:
   - objects_119
   - objects_109
   - objects_108
+  - switch down
+  - switch up
   - door
   m_Tag: sprite_atlas
   m_IsVariant: 0
