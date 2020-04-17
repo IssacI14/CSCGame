@@ -136,9 +136,9 @@ GameObject:
   - component: {fileID: 23760615}
   - component: {fileID: 23760614}
   m_Layer: 0
-  m_Name: Treasure Chest
+  m_Name: Treasure Chest A
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -159,6 +159,7 @@ MonoBehaviour:
   contents: {fileID: 11400000, guid: 7abfb8d69a4e10e45bbfc1eba55d3175, type: 2}
   playerInventory: {fileID: 11400000, guid: 58916ef3c5a76194b8f21def021f5302, type: 2}
   isOpen: 0
+  storedOpen: {fileID: 11400000, guid: 61c99be6e766161469d53b63c7a322bf, type: 2}
   raiseItem: {fileID: 11400000, guid: e8802119b1466e74381faa91f0458bbd, type: 2}
   dialogBox: {fileID: 1259196277}
   dialogText: {fileID: 1143196685}
@@ -34189,10 +34190,22 @@ PrefabInstance:
       propertyPath: fadeWait
       value: 0.33
       objectReference: {fileID: 0}
+    - target: {fileID: 2799904828280199606, guid: 7079b505a9dfcbc489577028dad7a1ac,
+        type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: f2df2acbd1d6a254880ce5097622aa79,
+        type: 2}
+    - target: {fileID: 2799904828280199606, guid: 7079b505a9dfcbc489577028dad7a1ac,
+        type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: f74da23a162d0d6419c00d6fced202c0,
+        type: 2}
     - target: {fileID: 4425300595020293450, guid: 7079b505a9dfcbc489577028dad7a1ac,
         type: 3}
       propertyPath: m_Name
-      value: Scene Transition
+      value: House Transition
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7079b505a9dfcbc489577028dad7a1ac, type: 3}

@@ -4413,6 +4413,18 @@ PrefabInstance:
       propertyPath: fadeWait
       value: 0.33
       objectReference: {fileID: 0}
+    - target: {fileID: 2799904828280199606, guid: 7079b505a9dfcbc489577028dad7a1ac,
+        type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: 36965ab6147279547a79e934da1dc07b,
+        type: 2}
+    - target: {fileID: 2799904828280199606, guid: 7079b505a9dfcbc489577028dad7a1ac,
+        type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ec5ee35c8ce5ba4ba61fee301a3b668,
+        type: 2}
     - target: {fileID: 4425300595020293450, guid: 7079b505a9dfcbc489577028dad7a1ac,
         type: 3}
       propertyPath: m_Name
